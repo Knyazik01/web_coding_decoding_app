@@ -1,0 +1,64 @@
+body {
+  background-image: url(../pictures/bg-img.png);
+  background-color: rgba(0, 0, 0, 0);
+  /* opacity: .3; */
+}
+
+.encoder {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* background-color: #4C4C4C; */
+  padding: 10px;
+  margin: auto;
+  margin-top: 200px;
+  font-family: ;
+  font-size: 20px;
+}
+
+.encoder select {
+  border-color: blue;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.encoder select option {
+  border-color: blue;
+  border-radius: 10px;
+}
+
+.encoder img {
+  float: right;
+  width: 50px;
+  margin-right: 20px;
+  filter: invert(100%);
+}
+
+.encoder #p {
+  width: 30px;
+  background-color: #4C4C4C;
+  border: none;
+}
+
+.encoder #key {
+  border-color: blue;
+  border-radius: 10px;
+  text-align: center;
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+
+.encoder #button_res {
+  padding-left: 20px;
+  margin-bottom: -20px;
+  filter: invert(100%);
+}
+
+.encoder textarea {
+  overflow: hidden;
+  min-width: 300px;
+  min-height: 50px;
+  resize: none;
+  border-color: blue;
+  border-radius: 10px;
+}
